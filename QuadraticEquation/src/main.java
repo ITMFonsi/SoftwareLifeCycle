@@ -30,8 +30,6 @@ public class main {
             e.printStackTrace();
         } catch (AIsZeroException e) {
             e.printStackTrace();
-        } catch (NotPlausibleException e) {
-            e.printStackTrace();
 //        } catch (InterruptedException e) {
 //            e.printStackTrace();
         } finally {

@@ -16,12 +16,9 @@ public class QuadraticEquation {
         results = new LinkedList<Double>();
     }
 
-    public List<Double> calc() throws ImaginaryNumbersException, AIsZeroException, NotPlausibleException {
+    public List<Double> calc() throws ImaginaryNumbersException, AIsZeroException {
         if (a == 0) {
             throw new AIsZeroException();
-        }
-        if (Math.pow(b, 2) < 4*a*c) {
-            throw new NotPlausibleException();
         }
 
         double s1 = (-b + Math.sqrt(Math.pow(b, 2) - (4 * a * c))) / (2 * a);

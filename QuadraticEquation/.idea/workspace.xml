@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f7b99f8-c16f-435a-87a0-1d33a7a7f797" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/simpleTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QuadraticEquation.iml" beforeDir="false" afterPath="$PROJECT_DIR$/QuadraticEquation.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/QuadraticEquation/ImaginaryNumbersException.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/QuadraticEquation/ImaginaryNumbersException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/QuadraticEquation/QuadraticEquation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/QuadraticEquation/QuadraticEquation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/QuadraticEquation/main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/QuadraticEquation/main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NotPlausibleException.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/QuadraticEquation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/QuadraticEquation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.java" afterDir="false" />
     </list>
@@ -52,37 +58,52 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="486" />
-          <entry key="txt" value="6" />
+          <entry key="java" value="1264" />
+          <entry key="txt" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="486" />
-          <entry key="PLAIN_TEXT" value="6" />
+          <entry key="JAVA" value="1264" />
+          <entry key="PLAIN_TEXT" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="1" />
+          <entry key="class" value="2" />
+          <entry key="java" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="1" />
+          <entry key="CLASS" value="2" />
+          <entry key="JAVA" value="3" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="487">
-              <caret line="36" column="62" selection-start-line="36" selection-start-column="62" selection-end-line="36" selection-end-column="62" />
+            <state relative-caret-position="333">
+              <caret line="31" column="32" lean-forward="true" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/simpleTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="452">
+              <caret line="43" column="37" selection-start-line="43" selection-start-column="37" selection-end-line="43" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#236#244#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -91,23 +112,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/QuadraticEquation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="-7">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/NotPlausibleException.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
-              <folding>
-                <element signature="e#90#91#0" expanded="true" />
-                <element signature="e#112#113#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -130,8 +138,10 @@
       <list>
         <option value="$PROJECT_DIR$/src/ImaginaryNumbersException.java" />
         <option value="$PROJECT_DIR$/src/NotPlausibleException.java" />
+        <option value="$PROJECT_DIR$/src/TestRunner.java" />
         <option value="$PROJECT_DIR$/src/QuadraticEquation.java" />
         <option value="$PROJECT_DIR$/src/main.java" />
+        <option value="$PROJECT_DIR$/src/simpleTests.java" />
       </list>
     </option>
   </component>
@@ -182,15 +192,18 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544353182965" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544355747905" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
@@ -207,8 +220,6 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="false" />
           <option name="myId" value="UPDATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/ImaginaryNumbersException.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/QuadraticEquation.java</PATH>
           <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main.java</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
@@ -217,7 +228,6 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="false" />
           <option name="myId" value="CREATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/AIsZeroException.java</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Deleted" />
@@ -318,7 +328,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.simpleTests">
     <configuration name="Unnamed" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="main" />
       <module name="QuadraticEquation" />
@@ -326,6 +336,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="simpleTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="QuadraticEquation" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="simpleTests" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Unnamed" />
+      <item itemvalue="JUnit.simpleTests" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.simpleTests" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -338,7 +365,7 @@
       <option name="presentableId" value="Default" />
       <updated>1544348610608</updated>
       <workItem from="1544348613901" duration="2424000" />
-      <workItem from="1544351619212" duration="1545000" />
+      <workItem from="1544351619212" duration="4080000" />
     </task>
     <task id="LOCAL-00001" summary="zipfel">
       <created>1544351667256</created>
@@ -354,11 +381,50 @@
       <option name="project" value="LOCAL" />
       <updated>1544352269287</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="zipfel3">
+      <created>1544353196535</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1544353196535</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="simpleTests - 2018.12.09 at 12h 24m 06s.xml">
+      <configuration name="simpleTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="simpleTests - 2018.12.09 at 12h 25m 39s.xml">
+      <configuration name="simpleTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="simpleTests - 2018.12.09 at 12h 30m 38s.xml">
+      <configuration name="simpleTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="simpleTests - 2018.12.09 at 12h 31m 13s.xml">
+      <configuration name="simpleTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="simpleTests - 2018.12.09 at 12h 32m 01s.xml">
+      <configuration name="simpleTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="simpleTests - 2018.12.09 at 12h 32m 25s.xml">
+      <configuration name="simpleTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="simpleTests - 2018.12.09 at 12h 33m 44s.xml">
+      <configuration name="simpleTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="simpleTests - 2018.12.09 at 12h 35m 22s.xml">
+      <configuration name="simpleTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="simpleTests - 2018.12.09 at 12h 41m 26s.xml">
+      <configuration name="simpleTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="simpleTests - 2018.12.09 at 12h 42m 03s.xml">
+      <configuration name="simpleTests" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3969000" />
+    <option name="totallyTimeSpent" value="6504000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1842" height="1096" extended-state="6" />
@@ -373,7 +439,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.24948025" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.40956342" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39958593" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -382,7 +448,7 @@
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32919255" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32848233" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -405,7 +471,22 @@
       <path value="$PROJECT_DIR$/../.." />
     </ignored-roots>
     <MESSAGE value="zipfel" />
-    <option name="LAST_COMMIT_MESSAGE" value="zipfel" />
+    <MESSAGE value="zipfel3" />
+    <option name="LAST_COMMIT_MESSAGE" value="zipfel3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/QuadraticEquation.java</url>
+          <line>11</line>
+          <properties class="QuadraticEquation" method="&lt;init&gt;">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/ImaginaryNumbersException.java">
@@ -415,6 +496,16 @@
           <folding>
             <element signature="e#99#100#0" expanded="true" />
             <element signature="e#187#188#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TestRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -432,8 +523,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/QuadraticEquation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="-7">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -442,10 +533,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="487">
-          <caret line="36" column="62" selection-start-line="36" selection-start-column="62" selection-end-line="36" selection-end-column="62" />
+        <state relative-caret-position="333">
+          <caret line="31" column="32" lean-forward="true" selection-start-line="31" selection-start-column="32" selection-end-line="31" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-api/5.3.2/junit-jupiter-api-5.3.2.jar!/org/junit/jupiter/api/Test.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-api/5.3.2/junit-jupiter-api-5.3.2.jar!/org/junit/jupiter/api/function/Executable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/simpleTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="452">
+          <caret line="43" column="37" selection-start-line="43" selection-start-column="37" selection-end-line="43" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#236#244#0" expanded="true" />
           </folding>
         </state>
       </provider>
