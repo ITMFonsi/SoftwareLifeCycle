@@ -10,13 +10,11 @@ public class QuadraticEquation {
         this.c = c;
     }
 
-    public void calc() throws ImaginaryNumbersException {
+    public void calc() throws ImaginaryNumbersException, AIsZeroException {
         double s1 = (-b + Math.sqrt(Math.pow(b, 2) - (4 * a * c))) / (2 * a);
         double s2 = (-b - Math.sqrt(Math.pow(b, 2) - (4 * a * c))) / (2 * a);
 
-        if (a == 0) {
-            // ex
-        }
+        if (a == 0) throw new AIsZeroException();
 
         if (Double.isNaN(s1) || Double.isNaN(s2)) {
             throw new ImaginaryNumbersException();
