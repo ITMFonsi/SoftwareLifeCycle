@@ -1,3 +1,4 @@
+import java.util.List;
 import java.util.Scanner;
 
 public class main {
@@ -19,7 +20,12 @@ public class main {
         long start_time = System.nanoTime();
         QuadraticEquation q = new QuadraticEquation(a, b, c);
         try {
-            q.calc();
+            List<Double> results = q.calc();
+            // print results
+            for(int i = 0; i < results.size(); i++) {
+                System.out.format("%.10f %n", results.get(i));
+            }
+
         } catch (ImaginaryNumbersException e) {
             e.printStackTrace();
         } catch (AIsZeroException e) {
