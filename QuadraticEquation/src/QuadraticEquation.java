@@ -10,7 +10,7 @@ public class QuadraticEquation {
         this.c = c;
     }
 
-    public void calc() throws ImaginaryNumbersException, AIsZeroException {
+    public void calc() throws ImaginaryNumbersException, AIsZeroException, NotPlausibleException {
         double s1 = (-b + Math.sqrt(Math.pow(b, 2) - (4 * a * c))) / (2 * a);
         double s2 = (-b - Math.sqrt(Math.pow(b, 2) - (4 * a * c))) / (2 * a);
 

@@ -24,8 +24,9 @@ public class main {
             e.printStackTrace();
         } catch (AIsZeroException e) {
             e.printStackTrace();
-        }
-        finally {
+        } catch (NotPlausibleException e) {
+            e.printStackTrace();
+        } finally {
             long end_time = System.nanoTime();
             double difference = (end_time - start_time) / 1e6;
             System.out.println("Duration: (msec) ");
