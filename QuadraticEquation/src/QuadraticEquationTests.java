@@ -4,7 +4,7 @@ import static org.junit.jupiter.api.Assertions.assertThrows;
 
 import java.util.*;
 
-public class simpleTests {
+public class QuadraticEquationTests {
 
     // tested with
     // http://www.math.com/students/calculators/source/quadratic.htm
