@@ -16,6 +16,10 @@ public class QuadraticEquation {
 
         if (a == 0) throw new AIsZeroException();
 
+        if (Math.pow(b, 2) < 4*a*c) {
+            throw new NotPlausibleException();
+        }
+
         if (Double.isNaN(s1) || Double.isNaN(s2)) {
             throw new ImaginaryNumbersException();
         } else {
