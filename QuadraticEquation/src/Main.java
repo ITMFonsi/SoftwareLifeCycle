@@ -3,21 +3,23 @@ import java.util.Scanner;
 
 public class Main {
 
+
     public static void main(String[] args) {
-
-
+        //Read Input from console
         Scanner s = new Scanner(System.in);
-
         System.out.println("Enter a value for a: ");
         double a = Double.parseDouble(s.nextLine());
-
         System.out.println("Enter a value for b: ");
         double b = Double.parseDouble(s.nextLine());
-
         System.out.println("Enter a value for c: ");
         double c = Double.parseDouble(s.nextLine());
         s.close();
+
+
+        //Start the timer
         long start_time = System.nanoTime();
+
+        //Create new QuadraticEquation Object
         QuadraticEquation q = new QuadraticEquation(a, b, c);
         try {
             List<Double> results = q.calc();

@@ -3,12 +3,16 @@ import java.util.List;
 
 public class QuadraticEquation {
 
+    //coefficients of quadratic equation ax^2 + bx + c = 0
     public double a;
     public double b;
     public double c;
+
+    //Contains the results x1 and x2
     public List<Double> results;
 
 
+    //Constructor
     public QuadraticEquation(double a, double b, double c) {
         this.a = a;
         this.b = b;
@@ -16,6 +20,7 @@ public class QuadraticEquation {
         results = new LinkedList<Double>();
     }
 
+    //Calculation method for x1 and x2
     public List<Double> calc() throws ImaginaryNumbersException, AIsZeroException {
         if (a == 0) {
             throw new AIsZeroException();
@@ -30,7 +35,6 @@ public class QuadraticEquation {
             results.add(s1);
             results.add(s2);
         }
-
         return results;
     }
 }
