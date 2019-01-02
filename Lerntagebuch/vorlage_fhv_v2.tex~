@@ -1,0 +1,131 @@
+\documentclass[a4paper,12pt,twoside]{scrreprt}
+% Autor der Vorlage: Klaus Rheinberger, FH Vorarlberg
+% 2017-02-20
+
+%% Hilfe: z.B.
+% empfohlener Einstieg: http://latex.tugraz.at/  
+% https://de.wikibooks.org/wiki/LaTeX-Kompendium:_Schnellkurs:_Erste_Schritte
+% https://de.wikibooks.org/wiki/LaTeX-Kompendium:_Schnellkurs
+% https://de.wikibooks.org/wiki/LaTeX-Kompendium
+
+%% Pakete:
+% Der Befehl \usepackage[latin9]{inputenc} ermöglicht die direkte Angabe von Umlauten. Übrigens lässt sich so auch das Euro-Zeichen direkt eingeben. Auf Betriebssystemen, wie zum Beispiel allen neueren Linux-Distributionen, verwendet man statt \usepackage[latin9]{inputenc} besser \usepackage[utf8]{inputenc}, auf Applesystemen verwendet man \usepackage[macce]{inputenc} (oder das für ältere Modelle gültige \usepackage[applemac]{inputenc}).
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}    % Silbentrennung bei Sonderzeichen
+\usepackage{graphicx}       % Bilder einbinden
+\usepackage[ngerman]{babel} % Deutsche Sprachanpassungen
+\usepackage{csquotes}       % When using babel or polyglossia with biblatex, loading csquotes is recommended to ensure that quoted texts are typeset according to the rules of your main language.
+\usepackage{acronym}  % für optionales Abkürzungsverzeichnis
+\usepackage{eurosym}  % z. B. \EUR{12345,68}
+\usepackage[linktocpage=true]{hyperref} % Links z. B. \href{https://www.wikibooks.org}{Wikibooks home}
+\usepackage[bindingoffset=8mm]{geometry}% Bindeverlust von 8mm einbeziehen. Mit dem geometry-Paket können Sie die Ränder auch ganz individuell anpassen.
+\usepackage{caption} % Abbildungslegenden
+\captionsetup{format=hang, justification=raggedright}
+
+\usepackage[style=alphabetic,citestyle=alphabetic,backend=biber]{biblatex}   % Literaturverweise
+%\usepackage[style=numeric,citestyle=numeric,backend=biber]{biblatex}
+% biblatex comes with a variety of built-in bibliography/citation style families (numeric, alphabetic, authoryear, authortitle, verbose), and there's a growing number of custom styles:
+% https://de.sharelatex.com/learn/Biblatex_citation_styles
+% https://de.sharelatex.com/learn/Biblatex_bibliography_styles
+\addbibresource{Zotero-Beispiele.bib}    % Zotero-Beispiele.bib ist die verwendete Bibtex-Datei 
+% Anstatt die Bibtex-Datei selber zu erstellen, kann sie z. B. aus einer Zotero-Sammlung zu BibTeX exportiert werden.
+
+
+%% Einstellungen:
+\setcounter{secnumdepth}{4}
+\setcounter{tocdepth}{4}   % Tiefe der Gliederung im In haltsverzeichnis
+
+
+%% ERSETZEN VON ECKIGEN KLAMMERN:
+% Ersetzen Sie den Text in den eckigen Klammern!
+
+\begin{document}
+
+
+% Titelblatt:
+% \newpage\mbox{}\newpage
+\cleardoublepage   % force output to a right page
+\thispagestyle{empty}
+\begin{titlepage}
+  \begin{flushright}
+  \includegraphics[width=0.4\linewidth]{Logo-A3}
+  \end{flushright}
+  \begin{flushleft}
+  \section*{Lerntagebuch}
+  \subsection*{Software Lebenszyklus und Qualität}
+
+  \vspace{12.5cm}
+  
+
+  Fachhochschule Vorarlberg\newline
+
+  \vspace{0.5cm}
+  
+  \vspace{0.5cm}
+  
+  Vorgelegt von\newline
+  Christina Tschol\newline
+  Florian Bechtold\newline
+  Dornbirn, Jänner 2019
+  \end{flushleft}
+\end{titlepage}
+
+
+% Inhaltsverzeichnis:
+\cleardoublepage   % force output to a right page
+\tableofcontents
+
+\clearpage
+\phantomsection
+\addcontentsline{toc}{chapter}{Abbildungsverzeichnis}
+\listoffigures
+
+%% Die Kapitelstruktur ist mit der betreuungsperson abzustimmen!
+
+\chapter{Einleitung}
+Das Lerntagebuch ist gegliedert nach den vier stattgefundenen Vorlesungen im November bzw. Dezember. Die in den jeweiligen Vorlesungen präsentierten Folien und Inhalte wurden von uns nach der
+Vorlesung noch einmal wiederholt und in das Tagebuch abgelegt. Dabei soll erwähnt werden, dass nicht alle Inhalte der Vorlesung in dem Tagebuch beinhaltet sind und somit keine Zusammenfassung
+der Vorlesung Software Lifecycle und Qualität sein soll. So wurden einzelne, für uns teilweise in der Vorlesung unklare Themen, teils über weitere Recherchen weiter ausgeführt. 
+\newline
+Die Hausübung zum Thema der \textbf{Quadratischen Gleichung} wird am Ende des Lerntagebuches vorgestellt und erläutert. Erklärungen zu verschiedensten Abkürzungen und Begrifflichkeiten sind im Glossar am Ende des Lerntagebuches zu finden.
+
+
+\chapter{Vorlesung 1 (28.11.2018)}
+In der ersten Vorlesung am 28.11.2018 wurden Teile der erste Foliensatz \textbf{SWE P01 Introduction} und Teile des zweiten Foliensatzes \textbf{SWE P02 Motivation} präsentiert. 
+  \section{Foliensatz SWE P01 Introduction}
+    \subsection{Opening Remarks}
+    \subsection{Vorstellung von Literatur}
+    \subsection{Kurzer Überblick über Kursinhalte}
+
+  \section{Foliensatz SWE P02 Motivation}
+    \subsection{Observations}
+    \subsection{Selected Events}
+    \subsection{Important Terms and Concepts}
+    \subsection{Kurze Übung in der Lehrveranstaltung}
+    \subsection{Beginn mit Sociotechnical Systems}
+      \subsubsection{Terminologie}
+      \subsubsection{Systemattribute}
+      \subsubsection{Lifecycle V Methode}
+      \subsubsection{Environmental Influences}
+
+\chapter{Vorlesung 2 (5.12.2018)}
+
+\chapter{Vorlesung 3 (12.12.2018)}
+
+\chapter{Vorlesung 4 (19.12.2018)}
+
+\chapter{Hausübung}
+
+% evtl. Abkürzungsverzeichnis:
+\clearpage
+\phantomsection
+\addcontentsline{toc}{chapter}{Glossar}  % evtl. ersetzen durch \addcontentsline{toc}{chapter}{Abkürzungsverzeichnis}
+\chapter*{Glossar} % evtl. ersetzen durch \chapter*{Abkürzungsverzeichnis}
+\begin{acronym}
+ \acro{ETW}{Energietechnik und Energiewirtschaft}
+ \acro{SQL}{Structured Query Language}
+ \acro{Bash}{Bourne-again shell}
+\end{acronym}
+
+
+\end{document}

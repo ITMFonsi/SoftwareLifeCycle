@@ -1,9 +1,9 @@
-[0] Config.pm:304> INFO - This is Biber 2.12
-[0] Config.pm:307> INFO - Logfile is 'vorlage_fhv_v2.blg'
-[34] biber-MSWIN32:315> INFO - === 
-[66] Biber.pm:371> INFO - Reading 'vorlage_fhv_v2.bcf'
-[163] Biber.pm:889> INFO - Found 0 citekeys in bib section 0
-[170] Utils.pm:193> WARN - The file 'vorlage_fhv_v2.bcf' does not contain any citations!
-[177] bbl.pm:636> INFO - Writing 'vorlage_fhv_v2.bbl' with encoding 'UTF-8'
-[178] bbl.pm:739> INFO - Output to vorlage_fhv_v2.bbl
-[179] Biber.pm:110> INFO - WARNINGS: 1
+[0] Config.pm:302> INFO - This is Biber 2.11
+[0] Config.pm:305> INFO - Logfile is 'vorlage_fhv_v2.blg'
+[35] biber:313> INFO - === Wed Jan  2, 2019, 19:12:48
+[68] Biber.pm:371> INFO - Reading 'vorlage_fhv_v2.bcf'
+[156] Biber.pm:857> INFO - Found 0 citekeys in bib section 0
+[167] Utils.pm:193> WARN - The file 'vorlage_fhv_v2.bcf' does not contain any citations!
+[175] bbl.pm:617> INFO - Writing 'vorlage_fhv_v2.bbl' with encoding 'UTF-8'
+[176] bbl.pm:720> INFO - Output to vorlage_fhv_v2.bbl
+[176] Biber.pm:110> INFO - WARNINGS: 1
