@@ -1,17 +1,22 @@
-\BOOKMARK [0][-]{section*.11}{Abbildungsverzeichnis}{}% 1
-\BOOKMARK [0][-]{section*.13}{Tabellenverzeichnis}{}% 2
-\BOOKMARK [0][-]{section*.15}{[evtl. Abk\374rzungsverzeichnis]}{}% 3
-\BOOKMARK [0][-]{chapter.1}{[Kapitel]}{}% 4
-\BOOKMARK [0][-]{chapter.2}{[Kapitel]}{}% 5
-\BOOKMARK [1][-]{section.2.1}{[Unterkapitel zweite Ebene]}{chapter.2}% 6
-\BOOKMARK [1][-]{section.2.2}{[Unterkapitel zweite Ebene]}{chapter.2}% 7
-\BOOKMARK [2][-]{subsection.2.2.1}{[Unterkapitel dritte Ebene]}{section.2.2}% 8
-\BOOKMARK [3][-]{subsubsection.2.2.1.1}{[Unterkapitel vierte Ebene]}{subsection.2.2.1}% 9
-\BOOKMARK [1][-]{section.2.3}{[Unterkapitel zweite Ebene]}{chapter.2}% 10
-\BOOKMARK [0][-]{chapter.3}{[Kapitel]}{}% 11
-\BOOKMARK [1][-]{section.3.1}{[Unterkapitel zweite Ebene]}{chapter.3}% 12
-\BOOKMARK [2][-]{subsection.3.1.1}{[Unterkapitel dritte Ebene]}{section.3.1}% 13
-\BOOKMARK [3][-]{subsubsection.3.1.1.1}{[Unterkapitel vierte Ebene]}{subsection.3.1.1}% 14
-\BOOKMARK [0][-]{section*.19}{Literaturverzeichnis}{}% 15
-\BOOKMARK [0][-]{chapter*.21}{[evtl. Anhang]}{}% 16
-\BOOKMARK [0][-]{chapter*.22}{Eidesstattliche Erkl\344rung}{}% 17
+\BOOKMARK [0][-]{section*.4}{Abbildungsverzeichnis}{}% 1
+\BOOKMARK [0][-]{chapter.1}{Einleitung}{}% 2
+\BOOKMARK [0][-]{chapter.2}{Vorlesung 1 \(28.11.2018\)}{}% 3
+\BOOKMARK [1][-]{section.2.1}{Foliensatz SWE P01 Introduction}{chapter.2}% 4
+\BOOKMARK [2][-]{subsection.2.1.1}{Opening Remarks}{section.2.1}% 5
+\BOOKMARK [2][-]{subsection.2.1.2}{Vorstellung von Literatur}{section.2.1}% 6
+\BOOKMARK [2][-]{subsection.2.1.3}{Kurzer \334berblick \374ber Kursinhalte}{section.2.1}% 7
+\BOOKMARK [1][-]{section.2.2}{Foliensatz SWE P02 Motivation}{chapter.2}% 8
+\BOOKMARK [2][-]{subsection.2.2.1}{Observations}{section.2.2}% 9
+\BOOKMARK [2][-]{subsection.2.2.2}{Selected Events}{section.2.2}% 10
+\BOOKMARK [2][-]{subsection.2.2.3}{Important Terms and Concepts}{section.2.2}% 11
+\BOOKMARK [2][-]{subsection.2.2.4}{Kurze \334bung in der Lehrveranstaltung}{section.2.2}% 12
+\BOOKMARK [2][-]{subsection.2.2.5}{Beginn mit Sociotechnical Systems}{section.2.2}% 13
+\BOOKMARK [3][-]{subsubsection.2.2.5.1}{Terminologie}{subsection.2.2.5}% 14
+\BOOKMARK [3][-]{subsubsection.2.2.5.2}{Systemattribute}{subsection.2.2.5}% 15
+\BOOKMARK [3][-]{subsubsection.2.2.5.3}{Lifecycle V Methode}{subsection.2.2.5}% 16
+\BOOKMARK [3][-]{subsubsection.2.2.5.4}{Environmental Influences}{subsection.2.2.5}% 17
+\BOOKMARK [0][-]{chapter.3}{Vorlesung 2 \(5.12.2018\)}{}% 18
+\BOOKMARK [0][-]{chapter.4}{Vorlesung 3 \(12.12.2018\)}{}% 19
+\BOOKMARK [0][-]{chapter.5}{Vorlesung 4 \(19.12.2018\)}{}% 20
+\BOOKMARK [0][-]{chapter.6}{Haus\374bung}{}% 21
+\BOOKMARK [0][-]{section*.6}{Glossar}{}% 22

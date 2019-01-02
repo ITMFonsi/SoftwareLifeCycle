@@ -1,0 +1,40 @@
+Inhaltsverzeichnis
+- Vorlesung 1 (28.11.2018)
+    -- Foliensatz SWE P01 Introduction
+        Opening Remarks (Grading, Course Content, einzelne Begriffserklärungen usw.)
+        Vorstellung von Literatur
+        Kurzer Überblick über Kursinhalte
+	-- Foliensatz SWE P02 Motivation (bis Folie 30)
+        Observations
+        Selected Events
+        Important Terms and Concepts
+        Kurze Übung in der Lehrveranstaltung
+        Beginn mit Sociotechnical Systems
+            Terminologie
+            Systemattribute
+            Lifecycle V Methode
+            Environmental Influences
+- Vorlesung 2 (05.12.2018)
+    -- Foliensatz SWE PO2 Motivation (ab Folie 33)
+        Critical Systems
+        Risk Management
+        Ethical Challenges
+        Homework Assigment: Quadratic Equation
+    -- Foliensatz SWE P03 Software Lifecycles (bis folie 31)
+        Product Management Lifecycle
+        Product Development Lifecycle
+- Vorlesung 3 (12.12.2018)
+    -- Foliensatz SWE P03 Software Lifecycles (ab Folie 32)
+        Weiterführung Product Development Lifecycle 
+            Items
+        Product
+- Vorlesung 4 (19.12.2018)
+
+
+
+Glossar
+- Verification
+- Validation
+- Essence Kernel
+- Technical debt
+-
